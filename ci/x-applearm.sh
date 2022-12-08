@@ -321,7 +321,8 @@ wq
 EOF
 autoconfbuild --enable-libxml2
 
-src libarchive-3.2.1 tar.gz http://www.libarchive.org/downloads/libarchive-3.2.1.tar.gz
+# src libarchive-3.2.1 tar.gz http://www.libarchive.org/downloads/libarchive-3.2.1.tar.gz
+src libarchive-3.2.1 tar.gz https://github.com/libarchive/libarchive/archive/refs/tags/v3.2.1.tar.gz
 autoconfbuild --disable-bsdtar --disable-bsdcat --disable-bsdcpio --without-openssl
 
 src pixman-0.38.4 tar.gz https://www.cairographics.org/releases/pixman-0.38.4.tar.gz
